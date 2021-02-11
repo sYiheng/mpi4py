@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+from mpi4pi import MPI
+comm = MPI.COMM_WORLD
+
+print "Hello World! My rank is: " + str(comm.rank)
+
